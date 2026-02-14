@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Android
+android/.gradle
+android/app/build/
+android/build/
+*.apk
+*.aab
+android/app/release/
+android/app/debug/
+
+# iOS
+ios/Pods/
+ios/build/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+*.keystore
+*.jks
+
+# API Credentials - NEVER COMMIT THESE!
+**/apiConfig.js
+**/secrets.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Build artifacts
+build/
+dist/
